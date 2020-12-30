@@ -1,35 +1,16 @@
 body{
-  
-    background-color: blue;
-   
-
+    background-image: url(https://wallpapercave.com/wp/xLZrFev.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
 }
- #banner{
+nav{
+    font-size: 1.5em;
     display: flex;
-    width: 90%;
-    height: 200px;
-    margin: o auto;
-    border: 5px solid black;
-    flex-direction: row;
-    justify-content: center;
-   
-    
-
+    justify-content: space-between;
+    /* background-color: black; */
 }
-.main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: 2px solid black;
-    height: 400px;
-    width: 1000px;
-
-
+h1{
+    text-align: center;
 }
- .cards{
-    border: 5px solid black;
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-}
+
